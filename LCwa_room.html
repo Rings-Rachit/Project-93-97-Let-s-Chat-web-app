@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=IM+Fell+Great+Primer&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Artifika&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="LCwa_room.css">
+<script src="LCwa_room.js"></script>
+        <title>
+            Project 93-97 - Let's Chat web app
+        </title>
+    </head>
+    <body class="container">
+
+        <h1> Welcome to the Let's Chat web app!</h1>
+        <p>This is the utmost <i>pinnacle</i> of all social media and networking apps. Thank you for using our services. 
+        <br> <b>Made by Rachit Srivastava</b></p>
+        <br>
+       
+        <h3 onload="putname();" id="welcomeuser">Name here</h3><br>
+        <center>
+        <input id="room_input" style="width:50%" type="text" placeholder="Type a room name here!" class="form-control"></center><br>
+        <button id="addRoom" onclick="addRoom();">Add the Room</button>
+        <button class="btn" id="logout" onclick="logout();">Logout</button><br><hr>
+             
+        <div id="room_names"></div>
+
+    </body>
+</html>

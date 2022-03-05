@@ -1,0 +1,13 @@
+body{
+    text-align:center;
+    background-color:darkslateblue;
+    color:whitesmoke;
+}
+#title{
+    font-size:75px;
+    font-family: 'Podkova', serif;
+}
+h5{
+    font-size: 15px;
+    font-family: 'Didact Gothic', sans-serif;
+}
